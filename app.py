@@ -43,3 +43,13 @@ result_label = tk.Label(root, text="", bg=farbe_blau, font=("Arial", 11, "bold")
 result_label.pack()
 
 root.mainloop()
+
+# ich möchte einen Button, der alles neu startet, damit ich ein neues Datum eingeben kann, ohne die App zu schließen.
+def reset_app():
+    entry.delete(0, tk.END)  
+    result_label.config(text="")  
+reset_btn = tk.Button(root, text="Neu starten", command=reset_app, bg=farbe_pink, font=("Arial", 10, "bold"))
+reset_btn.pack(pady=10)
+
+
+
