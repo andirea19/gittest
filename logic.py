@@ -6,7 +6,7 @@ def get_zodiac(day, month):
     if (month == 2 and day >= 19) or (month == 3 and day <= 20): return "Fische"
     if (month == 3 and day >= 21) or (month == 4 and day <= 19): return "Widder"
     if (month == 4 and day >= 20) or (month == 5 and day <= 20): return "Stier"
-    if (month == 5 and day >= 21) or (month == 6 and day <= 20): return "Zwillinge"
+    if (month == 5 and day >= 21) or (month == 6 and day <= 20): return "Zwilling"
     if (month == 6 and day >= 21) or (month == 7 and day <= 22): return "Krebs"
     if (month == 7 and day >= 23) or (month == 8 and day <= 22): return "Löwe"
     if (month == 8 and day >= 23) or (month == 9 and day <= 22): return "Jungfrau"
