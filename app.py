@@ -3,6 +3,11 @@ import tkinter as tk
 from tkinter import messagebox
 from logic import get_zodiac, get_weekday_info # Importiert deine Logik!
 
+def starte_zauber():
+    result_label.config(text="🌙✨ Berechne ... ✨🌙")
+    root.update()
+    root.after(1000, berechne_action)
+
 def berechne_action():
     eingabe = entry.get()
     try:
