@@ -5,5 +5,4 @@ Für das Freifach Versionsverwaltung mit git 2026 üben wir hier, wie sich Git u
 Es arbeiten hier mit:
 
 Ich
-du
-meine Tante Heidi
+# du
