@@ -24,9 +24,9 @@ farbe_blau = "#89CFF0"  # Baby Blue
 farbe_pink = "#FFB7C5"  # Soft Pink
 
 root = tk.Tk()
-root.title("GeburtstagsTool von Mandy & Andi")
+root.title("GeburtstagsTool von Mandy & Andi & Linda")
 root.geometry("300x250")
-root.configure(bg=farbe_blau) # Hintergrund der App in Blau
+root.configure(bg=farbe_blau) 
 
 # UI-Elemente
 tk.Label(root, text="Geburtstag (TT.MM.JJJJ):", bg=farbe_blau).pack(pady=10)
