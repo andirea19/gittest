@@ -12,3 +12,6 @@ logs/
 # Ignore IDE files
 .vscode/
 .idea/  
+
+# pycache
+__pycache__/
