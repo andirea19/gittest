@@ -6,7 +6,6 @@ Es arbeiten hier mit:
 
 Ich
 du
-meine Tante Heidi
 
 Hallo siehst du das?
 
