@@ -35,7 +35,7 @@ entry = tk.Entry(root)
 entry.pack()
 
 # Button in Pink
-btn = tk.Button(root, text="Analysieren", command=berechne_action, bg=farbe_pink, font=("Arial", 10, "bold"))
+btn = tk.Button(root, text="Analysieren", command=starte_zauber, bg=farbe_pink, font=("Arial", 10, "bold"))
 btn.pack(pady=20)
 
 # Ergebnis-Label
